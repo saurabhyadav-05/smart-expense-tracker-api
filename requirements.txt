@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+mongoengine
+pymongo
+python-dotenv
+pandas
+python-multipart
+pytest
