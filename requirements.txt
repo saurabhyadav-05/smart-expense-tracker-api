@@ -6,3 +6,4 @@ python-dotenv
 pandas
 python-multipart
 pytest
+httpx
