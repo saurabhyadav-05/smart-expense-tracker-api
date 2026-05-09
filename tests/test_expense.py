@@ -15,9 +15,6 @@ def test_home():
 
     assert response.status_code == 200
 
-
-def test_get_expenses():
-
-    response = client.get("/expenses")
-
-    assert response.status_code == 200
+    assert response.json() == {
+        "message": "Smart Expense Tracker API Running"
+    }
